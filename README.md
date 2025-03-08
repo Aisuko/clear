@@ -229,18 +229,18 @@ ubuntu@ip:~/workspace/multimodal-mimic3-pretraining-epoch200$ tree -L 2
 
 # Citation
 
+
 ```bibtex
-@software{Li_Multimodal-mimic_2024,
+@software{Li_Clinical_Learning_for_2024,
 author = {Li, Bowen},
 doi = {<>},
 month = dec,
-title = {{Multimodal-mimic}},
-url = {https://github.com/Aisuko/multimodal-mimic},
+title = {{Clinical Learning for Early Recognition}},
+url = {https://github.com/Aisuko/clear},
 version = {1.0.0},
 year = {2024}
 }
 ```
-
 
 # Acknowledgements
 
