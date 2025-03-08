@@ -79,6 +79,12 @@ For training the traditional ML model, please use [Makefile](./Makefile).
 
 The entire project structure should be like below:
 
+* Download pre-trained model from [aisuko/in-hospital-motality-6-48-contrast-learning](https://huggingface.co/datasets/aisuko/in-hospital-motality-6-48-contrast-learning/tree/main) and put it into `exp_outputs/multimodal-mimic-3-pretraining-epoch-200`
+* Download `in-hospital-motality-6-48.tar.gz` dataset from above project and put them into the root path
+* Download `raw-mimic3.tar.gz` raw data put the folder into the root path
+* Download `valset.tar.gz` and put it into `multimodal_clinical_pretraining/resources/`
+
+
 ```
 ubuntu@ip:~/workspace/multimodal-mimic3-pretraining-epoch200$ tree -L 2
 .
@@ -162,55 +168,7 @@ ubuntu@ip:~/workspace/multimodal-mimic3-pretraining-epoch200$ tree -L 2
 ├── in-hospital-mortality-6-48.tar.gz
 ├── logs
 │   ├── 12h_log_5_dec.txt
-│   ├── 18h_log_5_dec.txt
-│   ├── 24h_log_5_dec.txt
-│   ├── down_stream_48h_log.txt
-│   ├── fine_tuning_on_48_h_log.txt
-│   ├── fine_tuning_on_6_h_log.txt
-│   ├── pretrain_log.txt
-│   ├── requirements.txt
-│   ├── train_log.txt
-│   ├── train_log_12_600.txt
-│   ├── train_log_18_600.txt
-│   ├── train_log_24_600.txt
-│   ├── train_log_28_Feb.txt
-│   ├── train_log_30_1800.txt
-│   ├── train_log_30_600.txt
-│   ├── train_log_30_900.txt
-│   ├── train_log_36_1800.txt
 │   ├── train_log_36_600.txt
-│   ├── train_log_36_900.txt
-│   ├── train_log_42_600.txt
-│   ├── train_log_48_0_600.txt
-│   ├── train_log_48_600.txt
-│   ├── train_log_5_dec.txt
-│   ├── train_log_6_600.txt
-│   ├── train_log_6_hours_600.txt
-│   ├── train_log_n_12_600.txt
-│   ├── train_log_n_18_600.txt
-│   ├── train_log_n_24_600.txt
-│   ├── train_log_n_30_600.txt
-│   ├── train_log_n_36_600.txt
-│   ├── train_log_n_42_600.txt
-│   ├── train_log_n_48_600.txt
-│   ├── train_log_n_6_10.txt
-│   ├── train_log_n_6_600.txt
-│   ├── train_log_p_12_600.txt
-│   ├── train_log_p_18_600.txt
-│   ├── train_log_p_24_600.txt
-│   ├── train_log_p_30_600.txt
-│   ├── train_log_p_36_600.txt
-│   ├── train_log_p_42_600.txt
-│   ├── train_log_p_48_2_600.txt
-│   ├── train_log_p_48_600.txt
-│   ├── train_log_p_6_600.txt
-│   ├── train_log_p_n_12_600.txt
-│   ├── train_log_p_n_18_600.txt
-│   ├── train_log_p_n_24_600.txt
-│   ├── train_log_p_n_30_600.txt
-│   ├── train_log_p_n_36_600.txt
-│   ├── train_log_p_n_42_600.txt
-│   ├── train_log_p_n_6_600.txt
 │   └── train_logs_48_24_nov.txt
 ├── mimic3-benchmarks
 │   ├── create_decompensation.py
@@ -242,9 +200,6 @@ ubuntu@ip:~/workspace/multimodal-mimic3-pretraining-epoch200$ tree -L 2
 ├── test_notes_dataset.pkl
 ├── train_notes_dataset.pkl
 ├── val_notes_dataset.pkl
-├── visualization
-│   ├── eval_aoc_roc.ipynb
-│   └── newplot.png
 └── wandb
     ├── debug-internal.log -> run-20250304_100151-bqulgoqf/logs/debug-internal.log
     ├── debug.log -> run-20250304_100151-bqulgoqf/logs/debug.log
