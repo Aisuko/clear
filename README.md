@@ -23,30 +23,15 @@
 
 ## Fine-tuning Multimodal Mimic for the Downstream Task
 <p align="center">
-  <img src="./imgs/W&B Chart 7_3_2025, 10_34_54 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-  <img src="./imgs/W&B Chart 7_3_2025, 10_50_50 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-  <img src="./imgs/W&B Chart 7_3_2025, 10_35_33 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
+  <img src="./imgs/W&B Chart 8_3_2025, 1_32_51 pm.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
+  <img src="./imgs/W&B Chart 8_3_2025, 1_16_27 pm.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
+  <img src="./imgs/W&B Chart 8_3_2025, 1_16_39 pm.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
 </p>
 
 <p align="center">
-  <img src="./imgs/W&B Chart 7_3_2025, 10_35_12 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-  <img src="./imgs/W&B Chart 7_3_2025, 10_53_57 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-  <img src="./imgs/W&B Chart 7_3_2025, 10_35_44 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-</p>
-
-
-## Traditional ML Models
-
-<p align="center">
-  <img src="./imgs/W&B Chart 7_3_2025, 10_34_54 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-  <img src="./imgs/W&B Chart 7_3_2025, 10_50_50 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-  <img src="./imgs/W&B Chart 7_3_2025, 10_35_33 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-</p>
-
-<p align="center">
-  <img src="./imgs/W&B Chart 7_3_2025, 10_35_12 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-  <img src="./imgs/W&B Chart 7_3_2025, 10_53_57 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
-  <img src="./imgs/W&B Chart 7_3_2025, 10_35_44 am.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
+  <img src="./imgs/W&B Chart 8_3_2025, 1_16_55 pm.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
+  <img src="./imgs/W&B Chart 8_3_2025, 1_17_03 pm.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
+  <img src="./imgs/W&B Chart 8_3_2025, 1_17_09 pm.png" alt="" width="30%" style="display: inline-block; margin: 0 1%;" />
 </p>
 
 
