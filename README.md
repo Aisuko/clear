@@ -1,8 +1,8 @@
 <p align="center">
     <h1 align="center">
-        When Simpler Is Better: Traditional Models Outperform LLMs in ICU Mortality Prediction
+        Enhancing Multimodal Clinical Pretraining for ICU Modality Prediction
     </h1>
-     <p>This study compares traditional machine learning models to a multi-modal LLM-based model for predicting ICU mortality using the MIMIC-III dataset. We test several time windows (6, 12, 18, 24, and 48 hours) after admission. The results show that traditional models, especially Random Forest, consistently perform better and are more efficient than the LLM-based model. Our analysis finds that higher feature correlation, steady data patterns, and balanced variability lead to better predictions. While LLMs have potential, their current complexity and longer training times make them less practical without careful data selection and preparation. These findings highlight the importance of choosing both the right model and the right time windows to achieve reliable ICU mortality predictions.</p>
+     <p>This repository contains a PyTorch implementation of a multimodal clinical pretraining model for ICU modality prediction. Our model achieves state-of-the-art performance on the downstream task of ICU modality prediction by leveraging a pre-trained model and fine-tuning it with a novel neural network structure and loss function.</p>
 </p>
 
 
