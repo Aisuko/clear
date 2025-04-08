@@ -35,27 +35,6 @@
 </p>
 
 
-# Dataset
-
-Please check [document of dataset](./documents/dataset.md)
-
-<p align="center">
-  <img src="./imgs/result_of_evaluation_ds.png" alt="" width="50%" style="display: inline-block; margin: 0 2%;" />
-</p>
-
-
-
-# Training
-
-We utilize a customized development container (devcontainer) to conduct all experiments within an isolated environment. This approach ensures consistency across development setups and mitigates issues related to Python dependencies. 
-
-Different models have different training strategies, please check below:
-
-<p align="center">
-  <img src="./imgs/training_time.png" alt="" width="50%" style="display: inline-block; margin: 0 2%;" />
-</p>
-
-
 ## Training Customized LLM
 
 For training the customized LLM model. Please use `tmux`
